@@ -367,7 +367,7 @@ async function start() {
       log(colors.red, `Error in swap cycle #${cycle}: ${err.message}`);
     }
 
-    log(colors.blue, "Waiting 30 seconds before next swap cycle...");
+    log(colors.blue, "Waiting 10 seconds before next swap cycle...");
     await sleep(10000);
   }
 }
