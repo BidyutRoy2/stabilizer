@@ -1,0 +1,13 @@
+{
+  "name": "stabilizer-bot",
+  "version": "2.0.0",
+  "description": "Direct contract-based automated faucet claim and token swap bot for Stabilizer Finance on Sepolia testnet",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1"
+  }
+}
