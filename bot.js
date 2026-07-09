@@ -368,7 +368,7 @@ async function start() {
     }
 
     log(colors.blue, "Waiting 30 seconds before next swap cycle...");
-    await sleep(30000);
+    await sleep(10000);
   }
 }
 
